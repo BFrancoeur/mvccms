@@ -1,0 +1,93 @@
+/** SMACSS - Scalable and Modular Architecture for CSS **/
+
+/**
+Base Rules - Styles for the main website elements: body, input, button, ul, etc. Use classes only when necessary.
+
+Layout Rules - Styles of global elements. Use id here for elements that only appear once in a page.
+
+Modules Rules - Blocks that can be reused on a page. Use classes here. 
+
+State Rules - Styles for the various states of the modules. May use '!important'.
+
+Theme Rules - Dseign styles that may need to be updated at a later time 
+
+/************************
+|       RESET           |
+************************/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/************************
+|        BASE           |
+************************/
+@namespace base "http: //www.w3.org/1999/xhtml";
+
+base | body {
+    width: 100%;
+    height: 100vh;
+    padding: 5%;
+    background-color: #493e7a;
+}
+
+
+
+
+
+
+
+
+
+
+/************************
+|      LAYOUT           |
+************************/
+
+
+
+
+
+
+
+
+
+/************************
+|      MODULE           |
+************************/
+
+
+
+
+
+
+
+
+
+/************************
+|       STATE           |
+************************/
+
+
+
+
+
+
+
+
+
+
+/************************
+|       THEME           |
+************************/
